@@ -110,7 +110,7 @@ p {
 	justify-content: space-around;
 	right:0; top:0; bottom: 0;
 	width: 20%; height: 100%;
-	padding-top: 27.5%;
+	padding-top: 30%;
 }
 
 aside h3 {
@@ -148,4 +148,22 @@ aside p {
 
 .tab:active {
 	background-color: #CCC;
+}
+
+#footer {
+	display: none;
+}
+
+@media (max-width: 750px) {
+	#sidebar1, #sidebar2 {
+		display: none;
+	}
+
+	body {
+		width: 100%;
+	}
+
+	#footer {
+		display: inherit;
+	}
 }
