@@ -98,15 +98,27 @@ p {
 	padding-bottom: 3rem;
 }
 
-aside {
+#sidebar1 {
 	position:absolute;
 	right:0; top:0; bottom: 0;
 	width: 20%; height: 100%;
 	padding-top: 10%;
 }
 
+#sidebar2 {
+	position:absolute;
+	justify-content: space-around;
+	right:0; top:0; bottom: 0;
+	width: 20%; height: 100%;
+	padding-top: 27.5%;
+}
+
+aside h3 {
+	padding-top: 10%;
+}
+
 aside p {
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 }
 
 [data-tab-content] {
